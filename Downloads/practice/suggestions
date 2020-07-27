@@ -1,0 +1,43 @@
+1.this in classes in js?
+2.how to name methods that do the same functionality in js?
+
+
+12,34,42
+how to add a an element at the required part of list(means at the middle) 
+
+var btn = document.createElement("BUTTON");   // Create a <button> element
+btn.innerHTML = "CLICK ME";                   // Insert text
+document.body.appendChild(btn);               // Append <button> to <body>
+How to fremove a child?
+
+
+iffe
+object manipulation
+array looping
+
+
+Things to observe:
+1.what happens to var if we do not use
+2.what is closure?
+3.What happens if we do not use semi colon
+4.What is the use of window?
+5.What is the difference between using new Array and Array?
+6.What is window?
+7.Css specificity
+8.Style Over ride
+9.What is hoisting
+10.What is dom 
+11.underestanding the flow
+12.what is the use of bind task events?
+13.Know how to apply styling to different classes?
+14.difference between == and === ?
+15.css specificity
+
+
+for (var i = 0; i< 10 ;i++) {
+	setTimeout(function(i) {
+		return function() {
+			console.log(i);
+}
+}(i), 1000);
+}

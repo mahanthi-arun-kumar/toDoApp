@@ -1,0 +1,419 @@
+#search-btn{
+    background-image: url(file:///Users/mahanthiarunkumar/Desktop/images/voice.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border: none;
+    background-color: none;
+    position: relative;
+    height:31px;
+    right: 31px;
+    height: 34px;
+    bottom: -11px;
+}
+/*.kannu
+{
+    border-radius: 50px;
+    position: relative;
+    top: 9px;
+    width: 36px;
+    height: 35px;
+} 
+*/
+body
+{
+    font-family: Arial, sans-serif;
+    margin: 0%;
+}
+
+.arun {
+   text-align: right;
+   position: absolute;
+   right:2px;
+
+   
+   
+ }
+ a {
+      text-decoration: none;
+ }
+ .mycolour{    
+position: absolute;
+width: 100%;
+height: 56px;
+justify-content: space-between;
+bottom: 0;
+align-items: center;
+background-color:#e3e3e3;
+ }
+ .bottomleft {
+position: absolute;
+bottom: -23px;
+left: 0px;
+font-size: 13px;
+
+}
+.bottomright {
+position: absolute;
+bottom: -23px;
+right: 16px;
+font-size: 13px;
+text-decoration: none;
+}
+.top
+{
+    border-style: outset;
+    border-bottom-width: thin;
+    font-size: 13px;
+    
+}
+.bottom
+{
+    position: relative;
+}
+/* .div-table {
+    display: table;         
+    width: auto;         
+    background-color: #eee;         
+    border: 1px solid #666666;         
+    border-spacing: 5px; /* cellspacing:poor IE support for  this */
+  
+  .div-table-row {
+    display: table-row;
+    width: auto;
+    clear: both;
+  }
+  .div-table-col {
+    float: left; /* fix for  buggy browsers */
+    display: table-column;         
+    width: 200px;         
+    background-color: #ccc;  
+  }
+  #flex-container {
+   /*   position:absolute;
+    display: flex;
+    flex-wrap: wrap; 
+    height: 500px;
+    width:352px; */
+    width: 300px;
+    height: 500px;
+    
+   /* position: relative; */
+    padding: 2px;
+  /* display: none; */
+  /*  position: absolute 
+  right: 4px; 
+  top:48px;*/
+  display:none;
+  flex-direction: column;
+  position: absolute;
+  left: 1103px;
+    top:61px;
+    border-top-color: rgba(0, 0, 0, 0.2);
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-right-color: rgba(0, 0, 0, 0.2);
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-color: rgba(0, 0, 0, 0.2);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: rgba(0, 0, 0, 0.2);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    outline: none;
+    
+    /* justify-content:flex-start; */
+  }
+
+ /* .active {} */
+  .icon
+  {
+    height: 88px;
+    width:100px;
+    padding: 1px;
+    display: inline-block;
+  }
+   .myimage
+  {
+    height: 64px;
+    
+    
+  }
+  .letter
+  {
+    height: 8px;
+    width:9px;
+    position: relative;
+    left:41px;
+    top:7px;
+    font-size: 13px;
+    
+  }
+
+  .sprite {
+    background: url("file:///Users/mahanthiarunkumar/Desktop/images/all_images.png") no-repeat;
+}
+.ie {
+    width: 64px; /* Icon width */
+    height: 64px; /* Icon height */
+    display: inline-block; /* Display icon as inline block */
+    background-size: 67px;
+    background-position: 0 -290px; /* Icon background position in sprite */
+}
+.arun1
+{
+    width: 64px; /* Icon width */
+    height: 64px; /* Icon height */
+    display: inline-block; /* Display icon as inline block */
+    background-position: 0 -1949px; 
+    background-size: 67px;
+}
+ .man
+{
+width: 64px; /* Icon width */
+    height: 64px; /* Icon height */
+    display: inline-block; /* Display icon as inline block */
+    background-position: 0 -1373px; 
+    background-size: 67px;
+}
+.a
+{
+width: 64px; /* Icon width */
+    height: 64px; /* Icon height */
+    display: inline-block; /* Display icon as inline block */
+    background-position: 0 -2456px; 
+    background-size: 67px;
+}
+.b
+{
+width: 64px; /* Icon width */
+    height: 64px; /* Icon height */
+    display: inline-block; /* Display icon as inline block */
+    background-position: 0 -2383px; 
+    background-size: 67px;
+}
+.c
+{
+width: 64px; /* Icon width */
+    height: 64px; /* Icon height */
+    display: inline-block; /* Display icon as inline block */
+    background-position: 0 -1300px; 
+    background-size: 67px;
+}
+
+.d
+{
+width: 64px; /* Icon width */
+    height: 64px; /* Icon height */
+    display: inline-block; /* Display icon as inline block */
+    background-position: 0 -1803px; 
+    background-size: 67px;
+}
+.e
+{
+width: 64px; /* Icon width */
+    height: 64px; /* Icon height */
+    display: inline-block; /* Display icon as inline block */
+    background-position: 0 -2165px; 
+    background-size: 67px;
+}
+.f
+{
+width: 64px; /* Icon width */
+    height: 64px; /* Icon height */
+    display: inline-block; /* Display icon as inline block */
+    background-position: 0 -1735px; 
+    background-size: 67px;
+}
+.g
+{
+width: 64px; /* Icon width */
+    height: 64px; /* Icon height */
+    display: inline-block; /* Display icon as inline block */
+    background-position: 0 -649px; 
+    background-size: 67px;
+}
+.h
+{
+width: 64px; /* Icon width */
+    height: 64px; /* Icon height */
+    display: inline-block; /* Display icon as inline block */
+    background-position: 0 -2672px; 
+    background-size: 67px;
+}
+.i
+{
+width: 64px; /* Icon width */
+    height: 64px; /* Icon height */
+    display: inline-block; /* Display icon as inline block */
+    background-position: 0 -1662px; 
+    background-size: 67px;
+}
+.j
+{
+width: 64px; /* Icon width */
+    height: 64px; /* Icon height */
+    display: inline-block; /* Display icon as inline block */
+    background-position: 0 0px; 
+    background-size: 67px;
+}
+
+
+.letter1
+{
+    font-size: 13px;
+    align-content: center;
+    line-height:20px;
+    width:84px;
+    position: relative;
+    left:12px;
+}
+.letter2
+{
+    font-size: 13px;
+    align-content: center;
+    line-height:20px;
+    width:84px;
+    position: relative;
+    left:30px;
+}
+.letter3
+{
+    font-size: 13px;
+    align-content: center;
+    line-height:20px;
+    width:84px;
+    position: relative;
+    left:47px;
+}
+.letter4
+{
+    font-size: 13px;
+    align-content: center;
+    line-height:20px;
+    width:84px;
+    position: relative;
+    left:16px;
+}
+.letter5
+{
+    font-size: 13px;
+    align-content: center;
+    line-height:20px;
+    width:84px;
+    position: relative;
+    left:34px;
+}
+.letter6
+{
+    font-size: 13px;
+    align-content: center;
+    line-height:20px;
+    width:84px;
+    position: relative;
+    left:64px;
+}
+.letter7
+{
+    font-size: 13px;
+    align-content: center;
+    line-height:20px;
+    width:84px;
+    position: relative;
+    left:12px;
+}
+.letter8
+{
+    font-size: 13px;
+    align-content: center;
+    line-height:20px;
+    width:84px;
+    position: relative;
+    left:34px;
+}
+.letter9
+{
+    font-size: 13px;
+    align-content: center;
+    line-height:20px;
+    width:84px;
+    position: relative;
+    left:52px;
+}
+.letter10
+{
+    font-size: 13px;
+    align-content: center;
+    line-height:20px;
+    width:84px;
+    position: relative;
+    left:16px;
+}
+.letter11
+{
+    font-size: 13px;
+    align-content: center;
+    line-height:20px;
+    width:84px;
+    position: relative;
+    left:22px;
+}
+.letter12
+{
+    font-size: 13px;
+    align-content: center;
+    line-height:20px;
+    width:84px;
+    position: relative;
+    left:30px;
+}
+.letter13
+{
+    font-size: 13px;
+    align-content: center;
+    line-height:20px;
+    width:84px;
+    position: relative;
+    left:10px;
+}
+
+.i_1,.i_2,.i_3,.i_4
+{
+  width: 301px;
+    position: relative;
+    left: 48px;
+    top: 6px;
+}
+.i_5
+{
+  position: relative;
+  left: 45px;
+}
+.l_1,.l_2,.l_3,.l_4
+{
+  left: 40px;
+  position: relative;
+}
+.l_5
+{
+  position: relative;
+  left: 46px;
+}
+.up-arrow {
+  border-color: transparent;
+    border-bottom-color:rgba(0, 0, 0, 0.2);
+    border-style: dashed dashed solid;
+    border-width: 0 8.5px 21px;
+  
+  height: 0px;
+  width: 0px;
+  position: relative;
+  left:268px;
+  top:-24px;
+}
